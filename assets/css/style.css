@@ -464,7 +464,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.75);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -491,7 +491,8 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#hero h1 span {
+#hero h1 span,
+#hero h2 span {
   color: #e9aa3b;
 }
 
@@ -503,6 +504,10 @@ h6 {
 
 #hero .btns {
   margin-top: 30px;
+}
+
+#hero .btn-menu {
+  background-color: #e9aa3b;
 }
 
 #hero .btn-menu,
@@ -927,6 +932,7 @@ section {
 
 .menu .menu-img {
   width: 70px;
+  height: 70px;
   border-radius: 50%;
   float: left;
   border: 5px solid rgba(255, 255, 255, 0.2);
